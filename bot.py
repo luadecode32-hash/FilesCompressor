@@ -7,7 +7,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # Yahan apna Bot Token seedha daal do
-BOT_TOKEN = os.environ.get("9276287935:AAEqbRjEHjfYfJ9yKiiwpbDB3r_BJuLWKHU")
+BOT_TOKEN = ("9276287935:AAEqbRjEHjfYfJ9yKiiwpbDB3r_BJuLWKHU")
+
 
 # Render ke liye chhota sa dummy web server
 class SimpleHandler(BaseHTTPRequestHandler):
